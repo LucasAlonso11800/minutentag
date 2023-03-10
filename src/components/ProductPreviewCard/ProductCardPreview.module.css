@@ -1,0 +1,47 @@
+div.container {
+    background-color: #FFF;
+    padding: 1em;
+    border-radius: 12px 32px 12px 12px;
+    width: 155px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5em 1em;
+}
+
+h4.brand {
+    text-align: center;
+    color: #323232;
+    margin-bottom: 0.25em;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+img.image {
+    max-height: 122px;
+    object-fit: cover;
+    margin-bottom: 0.75em;
+    align-self: center;
+}
+
+p.price {
+    color: #323232;
+    font-weight: 500;
+}
+
+button.button {
+    background-color: #FF9F24;
+    border-radius: 8px 0px;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

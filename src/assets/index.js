@@ -1,0 +1,11 @@
+export { default as Beer } from "./icons/Beer.png";
+export { default as Wine } from "./icons/Wine-glass.png";
+export { default as Glass } from "./icons/glass.png";
+export { default as AddIcon } from "./icons/add-sign.png";
+export { default as NavHome } from "./icons/home.png";
+export { default as NavCheckout } from "./icons/check-out.png";
+export { default as NavBag } from "./icons/bag.png";
+export { default as NavSetting } from "./icons/setting.png";
+export { default as OrangeBag } from "./icons/icon-bag.png";
+export { default as Back } from "./icons/icon-back.png";
+export { default as Dots } from "./icons/icon-dots.png";

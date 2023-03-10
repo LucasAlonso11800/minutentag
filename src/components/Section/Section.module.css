@@ -1,0 +1,28 @@
+section.container {
+    width: 100%;
+    margin-bottom: 2em;
+}
+div.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+h4.title {
+    color: #323232;
+    font-size: 1.125em;
+    line-height: 1.25em;
+}
+
+p.all {
+    color: #646464;
+    opacity: 0.6;
+    font-size: 0.875em;
+    cursor: pointer;
+}
+
+div.childrenContainer {
+    display: flex;
+    flex-wrap: wrap;
+}

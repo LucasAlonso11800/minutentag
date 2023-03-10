@@ -1,0 +1,27 @@
+section.container {
+  margin-bottom: 2em;
+  position: relative;
+}
+
+input.input {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1em;
+  padding-left: 3.5em;
+  font-size: 14px;
+  color: #323232;
+  border: none;
+  outline: none;
+}
+
+input.input::placeholder {
+    color: #c4c4c4;
+}
+
+img.glass {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1em;
+}

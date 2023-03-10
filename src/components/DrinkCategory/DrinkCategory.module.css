@@ -1,0 +1,30 @@
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-self: start;
+    border-radius: 12px;
+    background-color: #FFF;
+    padding: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+div.container.selected {
+    background-color: #FF9F24;
+}
+
+img.image {
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 0.75em;
+}
+
+p.text {
+    font-weight: 500;
+    color: #323232
+}
+div.container.selected p.text {
+    color: #FFF
+}
