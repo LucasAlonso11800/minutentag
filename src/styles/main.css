@@ -21,3 +21,13 @@ img.product-image {
     max-width: 240px;
     max-height: 240px;
 }
+
+@media all and (min-width: 768px){
+    body {
+        padding-bottom: 0;
+    }
+    img.product-image {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}

@@ -45,3 +45,9 @@ button.button {
     outline: none;
     cursor: pointer;
 }
+
+@media all and (min-width: 768px){
+    div.container {
+        width: 250px;
+    }
+}

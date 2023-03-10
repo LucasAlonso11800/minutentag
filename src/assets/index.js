@@ -9,3 +9,5 @@ export { default as NavSetting } from "./icons/setting.png";
 export { default as OrangeBag } from "./icons/icon-bag.png";
 export { default as Back } from "./icons/icon-back.png";
 export { default as Dots } from "./icons/icon-dots.png";
+export { default as MenuIcon } from "./icons/menu-icon.png";
+export { default as User } from "./icons/user.jpg";

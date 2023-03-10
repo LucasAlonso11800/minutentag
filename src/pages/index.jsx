@@ -1,5 +1,5 @@
 import { Beer, Wine } from "@/assets";
-import { ProductCardPreview, DrinkCategory, Layout, SearchBar, Section } from "@/components";
+import { ProductCardPreview, DrinkCategory, Layout, SearchBar, Section, HomePageHeader } from "@/components";
 import axios from "axios";
 import { useMemo, useState } from "react";
 
@@ -15,6 +15,7 @@ export default function Home({ products }) {
 
   return (
     <Layout title="Home">
+      <HomePageHeader />
       <main>
         <SearchBar />
         <Section title="Drink Category">

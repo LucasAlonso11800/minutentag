@@ -1,0 +1,46 @@
+header.container {
+  margin-bottom: 1.5em;
+}
+
+div.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+img.menu {
+  cursor: pointer;
+}
+
+img.user {
+  max-width: 36px;
+  max-height: 36px;
+  border-radius: 100%;
+}
+
+p.subtitle {
+  font-size: 1em;
+  line-height: 1.3;
+  color: #646464;
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+h1.title {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.3;
+  color: #323232;
+}
+
+@media all and (min-width: 768px) {
+  header.container {
+    font-size: 20px;
+  }
+
+  img.user {
+    max-width: 48px;
+    max-height: 48px;
+  }
+}

@@ -15,3 +15,9 @@ nav.nav {
 img.image {
     margin: 0 0.25em;
 }
+
+@media all and (min-width: 768px){
+    nav.nav {
+        display: none;
+    }
+}

@@ -1,8 +1,9 @@
 div.container {
   background: #ffffff;
-  border-radius: 48px 48px 0px 0px;
+  border-radius: 48px;
   padding: 3em 2em 2em;
   margin: 1em auto 0;
+  max-width: 800px;
 }
 
 div.titleContainer {
